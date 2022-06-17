@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: hsl(0, 0%, 95%); */
+
+}
+
+body {
+    justify-content: center;
+    align-content: center;
+}
+main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+}
+img {
+    margin-left: 0%;
+    justify-content: left;
+
+    
+}
+h2 {
+    color: hsl(0, 0%, 95%);
+    text-align: left;
+    font-family: 'Big Shoulders Display', cursive;
+    padding: 20px;
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: left;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 25px;
+}
+.cars {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 60%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.first-grid {
+    padding: 2rem;
+    height: auto;
+    background-color:hsl(31, 77%, 52%);
+    /* padding: 2rem; */
+    text-align: center;
+    /* margin-left: 0%; */
+}
+.second-grid {
+    padding: 20px;
+    background-color: hsl(184, 100%, 22%);
+    /* height: 100vh; */
+    text-align: center;
+}
+.third-grid {
+    padding: 20px;
+    background-color: hsl(179, 100%, 13%);
+    /* height: 100vh; */
+    text-align: center;
+}
+.button {
+    border-radius: 30px;
+    /* font-size: 5px; */
+    color: hsl(0, 0%, 95%);
+    padding: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 0px;
+    width: 150px;
+    border-style:  groove;
+    border-color: hsla(0, 0%, 100%, 0.75);
+
+}
